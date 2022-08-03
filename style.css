@@ -1,0 +1,71 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/random/?landscape");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    background-color: rgba(0,0,0,0.5);
+    height:300px;
+    width:250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 2rem; /* used to create a certain distance from all the sides(4)   */
+    border-radius: 12px;
+    color:aliceblue;
+   
+}
+.temp{
+    margin-left: 60px;
+    padding-top: 17px;
+}
+.sep{
+    display: inline-flex;
+}
+.humidity,.description,.wind{
+    padding-bottom: 10px;
+}
+.icon{
+    align-items: center;
+    margin-left: 40px;
+    height:55px;
+    width:60px;
+    justify-content: space-evenly;
+    padding-bottom: 23px;
+}
+.search-bar{
+    outline: none;
+    border-radius: 16px;
+    padding: 0.4rem;
+    background-color: rgba(0,0,0,0.3);
+    color:bisque;
+}
+.search{
+    outline: none;
+}
+button{
+    border-radius: 16px;
+    padding: 0.4rem;
+    background-color: rgba(0,0,0,0.3);
+    color:azure;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.city,.temp,.humidity,.description,.wind,.search{
+    align-items: center;
+    text-align: center;
+}
+.city{
+    font-family: 'Ubuntu', sans-serif;
+}
+.temp,.humidity,.description,.wind{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
